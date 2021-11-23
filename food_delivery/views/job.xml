@@ -1,0 +1,9 @@
+<!-- <odoo>
+    <record id="view_hr_job_form_inherit" model="ir.ui.view">
+        <field name="name">hr.job.inherited</field>
+        <field name="model">hr.job</field>
+        <field name="inherit_id" ref="hr.view_hr_job_form"/>
+        <field name="arch" type="xml">
+        </field>
+    </record>
+</odoo> -->

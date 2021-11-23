@@ -1,0 +1,49 @@
+<odoo>
+    <record id="food_item_model_action" model="ir.actions.act_window">
+        <field name="name">Menu Items</field>
+        <field name="res_model">food.item</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="food_item_model_tree_view" model="ir.ui.view">
+        <field name="name">Menu Items</field>
+        <field name="model">food.item</field>
+        <field name="arch" type="xml">
+            <tree string="MenuItems">
+                <field name="name"/>
+                <field name="category"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="food_item_model_form_view" model="ir.ui.view">
+        <field name="name">Menu Items</field>
+        <field name="model">food.item</field>
+        <field name="arch" type="xml">
+            <form string="Food Items">
+                <sheet>
+                    <div class="oe_title">
+                        <h1 class="d-flex">
+                            <field name="name" placeholder="Item's Name" required="True"/>
+                            <!-- <a title="Chat" icon="fa-comments" href="#" class="ml8 o_employee_chat_btn" invisible="not context.get('chat_icon')" attrs="{'invisible': [('user_id','=', False)]}" role="button"><i class="fa fa-comments"/></a> -->
+                        </h1>
+                        <h2>
+                            <field name="description" placeholder="Description"/>
+                        </h2>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="price"/>
+                            <field name="category"/>
+                            <field name="preparation_time"/>
+                        </group>
+                        <group>
+                            <field name="in_stock"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

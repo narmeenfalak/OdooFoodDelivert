@@ -1,0 +1,7 @@
+<odoo>
+    <record id="job_model_action" model="ir.actions.act_window">
+        <field name="name">Job Positions</field>
+        <field name="res_model">hr.job</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

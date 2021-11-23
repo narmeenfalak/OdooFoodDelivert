@@ -1,0 +1,7 @@
+<odoo>
+    <record id="order_status_model_action" model="ir.actions.act_window">
+        <field name="name">Order Status</field>
+        <field name="res_model">order.status</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

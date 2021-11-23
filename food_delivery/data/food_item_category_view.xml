@@ -1,0 +1,23 @@
+<odoo>
+    <record id="food_item_category_model_action" model="ir.actions.act_window">
+        <field name="name">Product Category</field>
+        <field name="res_model">food.item.category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="food_item_category_model_form_view" model="ir.ui.view">
+        <field name="name">Product Category</field>
+        <field name="model">food.item.category</field>
+        <field name="arch" type="xml">
+            <form string="Food Item Category">
+                <sheet>
+                    <div class="oe_title">
+                        <h1 class="d-flex">
+                            <field name="name" placeholder="Category's Title" required="True"/>
+                        </h1>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

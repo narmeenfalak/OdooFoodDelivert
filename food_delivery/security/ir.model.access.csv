@@ -1,0 +1,8 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+=access_food_order,access_food_order,model_food_order,base.group_user,1,1,1,1
+access_customer,access_customer,model_customer,base.group_user,1,1,1,1
+access_food_item_category,access_food_item_category,model_food_item_category,base.group_user,1,1,1,1
+access_order_status,access_order_status,model_order_status,base.group_user,1,1,1,1
+access_line_item,access_line_item,model_line_item,base.group_user,1,1,1,1
+access_food_item,access_food_item,model_food_item,base.group_user,1,1,1,1
+

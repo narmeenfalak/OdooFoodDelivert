@@ -1,0 +1,18 @@
+<odoo>
+    <menuitem id="food_menu_root" name="Restaurant">
+        <menuitem id="products_menu" name="Products">
+            <menuitem id="food_item_menu_action" action="food_item_model_action"/>
+            <menuitem id="food_item_category_menu_action" name="Item Category" action="food_item_category_model_action"/>
+        </menuitem>
+        <menuitem id="orders_menu" name="Orders">
+            <menuitem id="orders_menu_action" name="Orders" action="food_order_model_action"/>
+            <menuitem id="customer_menu_action" name="Customers" action="customer_model_action"/>
+            <menuitem id="order_status_menu_action" name="Order Status" action="order_status_model_action"/>
+        </menuitem>        
+        <menuitem id="employees_menu" name="Employees">
+            <menuitem id="departments_menu_action" name="Departments" action="department_model_action"/>
+            <menuitem id="employees_menu_action" name="Employees" action="employee_model_action"/>
+            <menuitem id="job_menu_action" name="Job Positions" action="job_model_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
