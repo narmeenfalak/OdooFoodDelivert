@@ -1,9 +1,6 @@
 from odoo import models, fields
 
 class foodItem(models.Model):
-    # _inherit = "product.template"
-
-
     _name = "food.item"
     _description = "Food item table"
 

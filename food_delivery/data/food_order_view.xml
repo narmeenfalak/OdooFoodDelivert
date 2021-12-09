@@ -44,24 +44,12 @@
                             
                             <field name="delivery_fees"/>
                             <field name="total_price"/>
-                            <field name="delivery_location"/>
+                            <field name="delivery_duration"/>
                             <field name="estimated_delivery_time"/>
                             <field name="estimated_delivery_distance"/>
                         </group>
                     </group>
                     <field name="line_item"/>
-                    <!-- <notebook>
-                        <page string="Order Lines" name="order_lines">
-                            <field name="line_item" widget="section_and_note_one2many" mode="tree" attrs="{'readonly': [('state', 'in', ('done','cancel'))]}">
-                                <tree string="Sales Order Lines" editable="bottom">
-                                    <field name="name" string="Product"/>
-                                    <field name="quantity"/>
-                                    <field name="unit_price"/>
-                                    <field name="price" widget="monetary"/>
-                                </tree>
-                            </field>
-                        </page>
-                    </notebook>                 -->
                 </sheet>
             </form>
         </field>

@@ -6,4 +6,3 @@ class orderStatus(models.Model):
 
     key = fields.Char()
     name = fields.Char(string="Status")
-    # orders = fields.Many2one("food.order")
